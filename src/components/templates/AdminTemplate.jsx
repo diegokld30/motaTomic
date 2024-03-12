@@ -1,9 +1,14 @@
 import styled from "styled-components";
+import { SidebarCard } from '../../index.js'
 
-export function HomeTemplate() {
+export function AdminTemplate() {
   return (
     <Container>
-      <h1>Home template desde template </h1>
+      <h1>Home template desde Admin </h1>
+      <>
+       <SidebarCard />
+      </>
+      
     </Container>
   );
 }

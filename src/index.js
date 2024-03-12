@@ -2,6 +2,7 @@ export { default as App, ThemeContext } from './App';
 export { AuthContextProvider, UserAuth } from './context/authContext';
 export {  } from './main';
 export { Home } from './pages/home';
+export { Admin } from './pages/admin';
 export { MyRoutes } from './routers/routes';
 export { supabase } from './supabase/supabase.config';
 export { DataModulosConfiguracion, DesplegableUser, LinksArray, SecondarylinksArray, TemasData, TipoDocData, TipouserData } from './utils/dataEstatica';

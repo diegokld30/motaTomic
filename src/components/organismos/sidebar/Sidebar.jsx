@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import {
-  
   LinksArray,
   SecondarylinksArray,
   SidebarCard,
@@ -20,7 +19,7 @@ export function Sidebar({ state, setState }) {
           <div className="imgcontent">
             <img src={v.logo} />
           </div>
-          <h2>CoordiSoft</h2>
+          <h2>MotaTomic</h2>
         </div>
         {LinksArray.map(({ icon, label, to }) => (
           <div

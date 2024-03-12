@@ -23,34 +23,38 @@ export const DesplegableUser = [
 ];
 
 
-
 //data SIDEBAR
 export const LinksArray = [
   {
-    label: "Admin",
+    label: "Administrador",
     icon: <v.iconoUser />,
     to: "/admin",
   },
   {
-    label: "Home",
+    label: "Casa",
     icon: <AiOutlineHome />,
     to: "/",
   },
   {
-    label: "Kardex",
+    label: "Bodega",
     icon: <v.iconocategorias />,
     to: "/kardex",
   },
   {
-    label: "Reportes",
+    label: "ReportGG",
     icon: <v.iconoreportes />,
     to: "/reportes",
+  },
+  {
+    label: "Motatomic",
+    icon: <v.iconoreact />,
+    to: "/motatomic",
   },
  
 ];
 export const SecondarylinksArray = [
   {
-    label: "Configuración",
+    label: "Configuration",
     icon: <AiOutlineSetting />,
     to: "/configurar",
   },
